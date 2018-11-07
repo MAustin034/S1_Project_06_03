@@ -6,15 +6,22 @@
    Case Problem 3
    
    Design Styles for the Chupacabra Music Fest
-   Author: 
-   Date:   
+   Author: Mickal Austin
+   Date: 11-7-18  
    
    Filename: cf_effects.css
 
 */
 
 /* HTML Styles */
-
+html {
+    background-image: url("cf_back1.png");
+    background-attachment: fixed;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 
 
 /* Body Styles */
