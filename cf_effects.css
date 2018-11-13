@@ -21,19 +21,19 @@ html {
     margin-left: auto;
     margin-right: auto; 
 }
-
+/* underlying code for the website, sets everything up */
 
 /* Body Styles */
 body {
     background-color:  rgba(255, 255, 255, 0.3);
 }
-
+/* chages backgroud color */
 
 /* Body Header Styles */
 body header {
     background-color: rgba(51, 51, 51, 0.5);
 }
-
+/* changes background color */
 
 /* Aside Styles */
 section aside {
@@ -46,17 +46,18 @@ section aside h1 {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px; 
 }
+section#left, section#right {
+    perspective: 450px;
+}
+section#left aside {
 
-#left {
--webkit-perspective: 450px;
-perspective: 450px;
 transform: rotateY(25deg);
 }
-#right {
-    -webkit-perspective: 450px;
-    perspective: 450px;
+section#right aside {
+   
     transform: rotateY(-25deg);
 }
+/* changes color of border and size, trasforms the to give a 3d illusion */
 
 /* Cube Styles */
 div#cube {
@@ -104,3 +105,5 @@ div#cube_front{
 width: 400px;
 height: 400px;
 }
+
+/* gives the illusion of looking into a cube */
